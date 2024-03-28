@@ -17,12 +17,12 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/holiman/uint256"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/common/math"
+	"github.com/settlus/go-ethereum/core/tracing"
+	"github.com/settlus/go-ethereum/crypto"
+	"github.com/settlus/go-ethereum/log"
 )
 
 // Config are the configuration options for the Interpreter

@@ -22,14 +22,14 @@ import (
 	"io"
 	"os"
 
-	"github.com/ethereum/go-ethereum/beacon/blsync"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
+	"github.com/settlus/go-ethereum/beacon/blsync"
+	"github.com/settlus/go-ethereum/cmd/utils"
+	"github.com/settlus/go-ethereum/internal/flags"
+	"github.com/settlus/go-ethereum/log"
+	"github.com/settlus/go-ethereum/node"
+	"github.com/settlus/go-ethereum/rpc"
 	"github.com/urfave/cli/v2"
 )
 

@@ -21,14 +21,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/utils"
-	"github.com/ethereum/go-ethereum/triedb/database"
 	"github.com/gballet/go-verkle"
 	"github.com/holiman/uint256"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/ethdb"
+	"github.com/settlus/go-ethereum/trie/trienode"
+	"github.com/settlus/go-ethereum/trie/utils"
+	"github.com/settlus/go-ethereum/triedb/database"
 )
 
 var (

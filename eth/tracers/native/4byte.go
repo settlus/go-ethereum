@@ -22,11 +22,11 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/core/tracing"
+	"github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/core/vm"
+	"github.com/settlus/go-ethereum/eth/tracers"
 )
 
 func init() {

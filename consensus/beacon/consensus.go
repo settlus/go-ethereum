@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
 	"github.com/holiman/uint256"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/consensus"
+	"github.com/settlus/go-ethereum/consensus/misc/eip1559"
+	"github.com/settlus/go-ethereum/consensus/misc/eip4844"
+	"github.com/settlus/go-ethereum/core/state"
+	"github.com/settlus/go-ethereum/core/tracing"
+	"github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/params"
+	"github.com/settlus/go-ethereum/rpc"
+	"github.com/settlus/go-ethereum/trie"
 )
 
 // Proof-of-stake protocol constants.

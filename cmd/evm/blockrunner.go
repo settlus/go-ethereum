@@ -24,11 +24,11 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/settlus/go-ethereum/core"
+	"github.com/settlus/go-ethereum/core/rawdb"
+	"github.com/settlus/go-ethereum/core/tracing"
+	"github.com/settlus/go-ethereum/eth/tracers/logger"
+	"github.com/settlus/go-ethereum/tests"
 	"github.com/urfave/cli/v2"
 )
 

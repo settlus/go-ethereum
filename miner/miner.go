@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/common/hexutil"
+	"github.com/settlus/go-ethereum/consensus"
+	"github.com/settlus/go-ethereum/core"
+	"github.com/settlus/go-ethereum/core/state"
+	"github.com/settlus/go-ethereum/core/txpool"
+	"github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/params"
 )
 
 // Backend wraps all methods required for mining. Only full node is capable

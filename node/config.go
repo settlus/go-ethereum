@@ -25,11 +25,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/crypto"
+	"github.com/settlus/go-ethereum/log"
+	"github.com/settlus/go-ethereum/p2p"
+	"github.com/settlus/go-ethereum/rpc"
 )
 
 const (

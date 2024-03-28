@@ -24,14 +24,14 @@ import (
 	"math/big"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/consensus/misc/eip4844"
+	"github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/crypto"
+	"github.com/settlus/go-ethereum/ethdb"
+	"github.com/settlus/go-ethereum/log"
+	"github.com/settlus/go-ethereum/params"
+	"github.com/settlus/go-ethereum/rlp"
 )
 
 // ReadCanonicalHash retrieves the hash assigned to a canonical block number.

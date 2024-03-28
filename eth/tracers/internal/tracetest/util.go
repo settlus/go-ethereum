@@ -5,8 +5,8 @@ import (
 	"unicode"
 
 	// Force-load native and js packages, to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
-	_ "github.com/ethereum/go-ethereum/eth/tracers/native"
+	_ "github.com/settlus/go-ethereum/eth/tracers/js"
+	_ "github.com/settlus/go-ethereum/eth/tracers/native"
 )
 
 // camel converts a snake cased input string into a camel cased output.

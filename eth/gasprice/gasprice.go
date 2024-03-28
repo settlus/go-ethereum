@@ -22,15 +22,15 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/common/lru"
+	"github.com/settlus/go-ethereum/core"
+	"github.com/settlus/go-ethereum/core/state"
+	"github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/event"
+	"github.com/settlus/go-ethereum/log"
+	"github.com/settlus/go-ethereum/params"
+	"github.com/settlus/go-ethereum/rpc"
 )
 
 const sampleNumber = 3 // Number of transactions sampled in a block

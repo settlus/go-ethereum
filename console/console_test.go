@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/console/prompt"
+	"github.com/settlus/go-ethereum/core"
+	"github.com/settlus/go-ethereum/eth"
+	"github.com/settlus/go-ethereum/eth/ethconfig"
+	"github.com/settlus/go-ethereum/internal/jsre"
+	"github.com/settlus/go-ethereum/miner"
+	"github.com/settlus/go-ethereum/node"
 )
 
 const (

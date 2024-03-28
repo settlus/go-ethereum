@@ -26,11 +26,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/gofrs/flock"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/ethdb"
+	"github.com/settlus/go-ethereum/log"
+	"github.com/settlus/go-ethereum/metrics"
 )
 
 var (

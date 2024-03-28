@@ -41,7 +41,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/settlus/go-ethereum/crypto"
 )
 
 var (

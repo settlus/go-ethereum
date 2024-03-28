@@ -26,10 +26,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
 	bloomfilter "github.com/holiman/bloomfilter/v2"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/rlp"
 )
 
 var (

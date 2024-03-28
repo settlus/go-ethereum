@@ -23,22 +23,22 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/asm"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/settlus/go-ethereum/accounts/abi"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/consensus"
+	"github.com/settlus/go-ethereum/core"
+	"github.com/settlus/go-ethereum/core/asm"
+	"github.com/settlus/go-ethereum/core/rawdb"
+	"github.com/settlus/go-ethereum/core/state"
+	"github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/core/vm"
+	"github.com/settlus/go-ethereum/eth/tracers"
+	"github.com/settlus/go-ethereum/eth/tracers/logger"
+	"github.com/settlus/go-ethereum/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/ethereum/go-ethereum/eth/tracers/js"
 	"github.com/holiman/uint256"
+	_ "github.com/settlus/go-ethereum/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {
@@ -600,7 +600,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/ethereum/go-ethereum/issues/22649
+// see: https://github.com/settlus/go-ethereum/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte

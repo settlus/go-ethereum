@@ -22,12 +22,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	ctypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/settlus/go-ethereum/beacon/engine"
+	"github.com/settlus/go-ethereum/beacon/types"
+	"github.com/settlus/go-ethereum/common"
+	ctypes "github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/log"
+	"github.com/settlus/go-ethereum/rpc"
 )
 
 type engineClient struct {

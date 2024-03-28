@@ -16,7 +16,7 @@
 
 package snapshot
 
-import "github.com/ethereum/go-ethereum/metrics"
+import "github.com/settlus/go-ethereum/metrics"
 
 // Metrics in generation
 var (

@@ -26,11 +26,11 @@ import (
 	"slices"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/consensus/misc/eip1559"
+	"github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/log"
+	"github.com/settlus/go-ethereum/rpc"
 )
 
 var (

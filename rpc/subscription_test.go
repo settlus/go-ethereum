@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/core/types"
 )
 
 func TestNewID(t *testing.T) {

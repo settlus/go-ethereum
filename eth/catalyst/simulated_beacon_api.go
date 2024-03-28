@@ -20,10 +20,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/core"
+	"github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/log"
 )
 
 type api struct {

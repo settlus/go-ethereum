@@ -19,10 +19,10 @@ package tracing
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/params"
 )
 
 // OpContext provides the context at which the opcode is being

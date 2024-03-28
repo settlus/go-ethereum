@@ -22,11 +22,11 @@ import (
 	"math/big"
 	mrand "math/rand"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/common/math"
+	"github.com/settlus/go-ethereum/core/types"
+	"github.com/settlus/go-ethereum/log"
+	"github.com/settlus/go-ethereum/params"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
+	"github.com/settlus/go-ethereum/common"
+	"github.com/settlus/go-ethereum/core/tracing"
 )
 
 // Context contains some contextual infos for a transaction execution that is not
